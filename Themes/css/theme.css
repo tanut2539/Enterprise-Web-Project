@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'Itim-Regular';
+	src: url('../webfonts/Itim-Regular.eot');
+	src: local('☺'), url('../webfonts/Itim-Regular.woff') format('woff'), url('../webfonts/Itim-Regular.ttf') format('truetype'), url('../webfonts/Itim-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Body */
+
+body {
+
+    height: 100%; /* ให้ html และ body สูงเต็มจอภาพไว้ก่อน */
+    margin: 0;
+    padding: 0;
+    font-family: "Itim-Regular", sans-serif;
+    font-weight: 400;
+    background-color: rgba(235, 235, 235, 1);
+
+}
+
+/* Wrapper */
+
+.wrapper {
+    display: block;
+    min-height: 100%; /* real browsers */
+    height: auto !important; /* real browsers */
+    height: 100%; /* IE6 bug */
+    margin-bottom: -20px; /* กำหนด margin-bottom ให้ติดลบเท่ากับความสูงของ footer */
+ }
+
+/* span */
+
+.span {
+    margin-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+    display: block;
+}
+
+/* Section */
+
+section {
+    padding: 45px;
+}
+
+/* Card */
+
+.card {
+    margin-bottom: 15px;
+}
+
+.card-box {
+
+    padding: 15px 10px 15px 10px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.card-box-sub {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.4em;
+}
+
+.card-message {
+    font-size: 1.2em;
+}
+
+/* form login */
+
+.form-login {
+    padding: 10px;
+}
+.form-choose {
+    padding: 10px;
+}
+.form-title {
+    padding: 15px;
+}
+
+@media screen and (min-width: 40em){
+    .form-login {
+            padding: 20px;
+    }
+    .form-choose {
+        padding: 20px;
+    }
+    .form-title {
+            padding: 15px;
+    }
+}
+@media screen and (min-width: 52em){
+    .form-login {
+            padding: 30px;
+    }
+    .form-choose {
+        padding: 30px;
+    }
+    .form-title {
+            padding: 20px;
+    }
+}
+@media screen and (min-width: 64em){
+    .form-login {
+            padding: 60px;
+    }
+    .form-choose {
+            padding: 60px;
+    }
+    .form-title {
+            padding: 25px;
+    }
+}
+
+/* Center */
+
+.center {
+    text-align: center;
+}
